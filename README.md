@@ -29,11 +29,18 @@ Para este projeto, foquei no "Core" do desenvolvimento frontend e em ferramentas
 - **Layout Adaptável:** Uso de porcentagens e classes do Bootstrap para o site não "quebrar" no celular.
 - **Imagens Flexíveis:** Uso da classe `.img-fluid` para que as fotos se ajustem ao tamanho da tela.
 
-
 ## 📁 Estrutura do Projeto
 
 ```text
 ├── index.html       # Página principal
-├── css/             # Folhas de estilo (Custom e Libs)
+├── css/             # Folhas de estilo (Custom)
 ├── js/              # Scripts de comportamento
 └── assets/          # Imagens e ícones
+
+
+```  
+
+## 🚀 Protótipo no Figma
+Clique na imagem abaixo para navegar pelo protótipo diretamente no Figma:
+
+[![Protótipo no Figma](./assets/img-header.png)](https://www.figma.com/proto/R4N4FVJjPhat9BCJFFNN96/portifolio?node-id=10-69&p=f&t=R5ylrkWmIptKbMx2-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1)
