@@ -1,0 +1,38 @@
+/* Classes de cores */
+
+.bg-violet{
+    background-color: #7C3AED;
+}
+.bg-darkPurple {
+    background-color: #341539;
+}
+.bg-slateGray {
+    background-color: #E2E8F0;
+}
+.bg-cyan {
+    background-color: #22D3EE;
+}
+.bg-midnightBlue {
+    background-color: #110C1B;
+}
+.bg-black{
+    background-color: #000000;
+}
+.text-darkPurple{
+    color: #341539;
+}
+.text-slateGray{
+    color: #E2E8F0;
+}
+.text-cyan{
+    color: #22D3EE;
+}
+
+.hv{
+    height: 100vh;
+}
+.bg-gradient-violet{
+    background-image: linear-gradient(to bottom, #472187, #7C3AED)
+}
+
+
