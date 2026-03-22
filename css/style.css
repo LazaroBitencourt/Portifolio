@@ -1,38 +1,71 @@
-/* Classes de cores */
+/* Cores de customizadas para backgroud */
 
-.bg-violet{
+.bg-violet {
     background-color: #7C3AED;
 }
+
 .bg-darkPurple {
     background-color: #341539;
 }
+
 .bg-slateGray {
     background-color: #E2E8F0;
 }
+
 .bg-cyan {
     background-color: #22D3EE;
 }
+
 .bg-midnightBlue {
     background-color: #110C1B;
 }
-.bg-black{
+
+.bg-black {
     background-color: #000000;
 }
-.text-darkPurple{
+
+/* Cores de customizadas para texto*/
+
+.text-darkPurple {
     color: #341539;
 }
-.text-slateGray{
+
+.text-slateGray {
     color: #E2E8F0;
 }
-.text-cyan{
+
+.text-cyan {
     color: #22D3EE;
 }
 
-.hv{
-    height: 100vh;
-}
-.bg-gradient-violet{
-    background-image: linear-gradient(to bottom, #472187, #7C3AED)
+/* Cor de borda para cards*/
+
+.border-color-slateGray {
+    border-color: #22D3EE;
 }
 
+/* Shadow customizado para cards*/
+.shadowSlateGray {
+    box-shadow: 0px 0px 4px 3px #22D3EE;
+}
 
+/* Gradiente customizado para backgroud*/
+
+.bg-gradient-violet {
+    background-image: linear-gradient(to bottom, #4B1B9E, #7C3AED)
+}
+
+/* Cards hover*/
+
+.card-hover {}
+
+@media (min-width: 768px) {
+    .card-hover {
+        transition: transform 0.3s ease;
+        cursor: pointer;
+    }
+
+    .card-hover:hover {
+        transform: scale(1.3);
+    }
+}
