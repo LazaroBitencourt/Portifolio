@@ -17,6 +17,7 @@
       crossorigin="anonymous"
       defer
     ></script>
+    <script src="./js/script.js" defer></script>
   </head>
   <body>
     <div class="container-fluid m-0 p-0">
@@ -28,8 +29,8 @@
               <p class="text-slateGray fs-2 m-0 fw-bold">Olá, eu sou o</p>
               <p class="text-darkPurple fs-1 m-0 fw-bold">Lázaro H. G. Bitencourt :)</p>
               <p class="text-slateGray fs-5">Desenvolvedor Fullstack</p>
-              <a href="./docs/Currículo.pdf"class="btn bg-violet text-slateGray rounded-pill mb-md-0 me-3 me-md-4" type="button">Baixar currículo</a>
-              <a href class="btn bg-darkPurple text-slateGray rounded-pill" type="button">Entrar em contato</a>
+              <a href="./docs/Currículo.pdf"class="btn bg-violet text-slateGray rounded-pill mb-md-0 me-3 me-md-4" type="button" target="_blank">Baixar currículo</a>
+              <a href class="btn bg-darkPurple text-slateGray rounded-pill" type="button" id="entrar-em-contato">Entrar em contato</a>
             </div>
             <div class="col-6 col-md-3 d-flex justify-content-center">
               <img class="img-fluid rounded-circle border border-2 border-light w-100" src="./assets/foto.jpeg" alt="Foto"
@@ -60,17 +61,17 @@
       <!--Section Development stack-->
           <section class="bg-violet" style="min-height: 100vh">
            <div class="row text-slateGray justify-content-center">
-            <div class="col-9 text-center text-md-start pt-5 ps-0 ms-1 mt-5">
-              <h4 class=" ps-md-5">Development stack</h4>
+            <div class="col-9 text-center text-xl-start pt-5 ps-0 ms-1 mt-5">
+              <h4 class=" ps-xl-5">Development stack</h4>
             </div>
            </div>
-           <div class="row text-cyan justify-content-center me-0 text-center text-md-end">
+           <div class="row text-cyan justify-content-center me-0 text-center text-xl-end">
             <div class="col-9 p-0">
-              <h4 class="m-0 mt-4 mt-md-5 pe-md-5">Front-end</h4>
+              <h4 class="m-0 mt-4 mt-md-5 pe-xl-5">Front-end</h4>
             </div>
            </div>
            <div class="row text-cyan justify-content-center me-0">
-            <div class="col-9 p-0 d-flex flex-column flex-md-row  mt-5">
+            <div class="col-9 p-0 d-flex flex-column flex-md-wrap flex-xl-row  mt-5">
             <div class="container card-hover d-flex flex-column align-items-center justify-content-center mb-5" style="width:220px">
               <div class="card bg-slateGray border-color-slateGray border-1 p-4 rounded-4 shadowSlateGray m-2" style="width:180px;">
               <img class="card-group" src="./assets/figma-icon.png" alt="icone do Figma">
@@ -116,8 +117,85 @@
           
           </div>
            </div>
+
+           <div class="row text-cyan justify-content-center ms-xl-5 text-center text-xl-start">
+            <div class="col-9 p-0">
+              <h4 class="m-0 mt-4 mt-xl-5 pe-xl-5">Back-end</h4>
+            </div>
+           </div>
+           <div class="row text-cyan justify-content-center me-0">
+            <div class="col-9 p-0 d-flex flex-md-wrap flex-column flex-xl-row  mt-5">
+            <div class="container card-hover d-flex flex-column align-items-center justify-content-center mb-5" style="width:220px">
+              <div class="card bg-slateGray border-color-slateGray border-1 p-4 rounded-4 shadowSlateGray m-2" style="width:180px;">
+              <img class="card-group" src="./assets/java-programming-language-icon.png" alt="icone do java">
+              </div>
+              <p class=" text-slateGray card-text text-center mt-3" >Java</p>
+            </div>
+            <div class="container card-hover d-flex flex-column align-items-center justify-content-center mb-5 " style="width:220px">
+              <div class="card bg-slateGray border-color-slateGray border-1 p-4 rounded-4 shadowSlateGray m-2" style="width:180px;">
+              <img class="card-group" src="./assets/spring-boot-icon.png" alt="icone do spring framework">
+              </div>
+              <p class=" text-slateGray card-text text-center mt-3" >Spring Framework</p>
+            </div>
+            <div class="container card-hover d-flex flex-column align-items-center justify-content-center mb-5" style="width:220px">
+              <div class="card bg-slateGray border-color-slateGray border-1 p-4 rounded-4 shadowSlateGray m-2" style="width:180px;">
+              <img class="card-group" src="./assets/mysql-icon.png" alt="icone do mysql">
+              </div>
+              <p class=" text-slateGray card-text text-center mt-3" >MySQL</p>
+            </div>
+            <div class="container card-hover d-flex flex-column align-items-center justify-content-center mb-5" style="width:220px">
+              <div class="card bg-slateGray border-color-slateGray border-1 p-4 rounded-4 shadowSlateGray m-2" style="width:180px;">
+              <img class="card-group" src="./assets/postgresql-icon.png" alt="icone do postgresql">
+              </div>
+              <p class=" text-slateGray card-text text-center mt-3" >PostgreSQL</p>
+            </div>
+            <div class="container card-hover d-flex flex-column align-items-center justify-content-center mb-5" style="width:220px">
+              <div class="card bg-slateGray border-color-slateGray border-1 p-4 rounded-4 shadowSlateGray m-2" style="width:180px;">
+              <img class="card-group" src="./assets/mongodb-icon.png" alt="icone do mongoDB">
+              </div>
+              <p class="text-slateGray card-text text-center mt-3" >MongoDB</p>
+            </div>
+          </div>
+           </div>
           </section>
       <!--Section Projects-->
+          <section class="bg-violet" style="min-height: 100vh">
+            <div class="row text-slateGray justify-content-center mb-md-5">
+            <div class="col-9 text-center text-xl-start pt-5 ps-0 ms-1 mt-5">
+              <h4 class=" ps-xl-5">Projects</h4>
+            </div>
+           </div>
+
+           <div class="row text-cyan justify-content-center me-0 text-center text-xl-end">
+            <div class="col-9 p-0">
+              <h4 class="m-0 mt-4 mt-md-5 pe-xl-5">Front-end</h4>
+            </div>
+           </div>
+            
+           <div class="row text-cyan flex-column flex-xl-row justify-content-center align-items-center mx-0 mt-md-5 g-4">
+  
+            <div class="col-8 col-xl-3 text-center text-xl-end me-md-5 m-5">
+              <p class="text-slateGray fs-5 m-md-0 mt-4"> 
+                <strong class="text-white fs-4">Casa Dourada</strong>
+                <br><br>
+                O projeto Casa Dourada une o prestígio da alta gastronomia a uma interface sofisticada e minimalista.
+                <br>
+                O visual utiliza uma estética refinada, combinando o Preto com toques de Dourado para criar uma atmosfera de exclusividade e elegância.
+              </p>
+            </div>
+
+            <div class="col-11  col-xl-5 pe-xl-3" >
+              <div class="ratio ratio-16x9"> <video class="rounded-4 object-fit-cover shadow-lg" muted autoplay loop playsinline>
+                  <source src="./videos/Gravação de Tela 2026-03-15 145610.mp4" type="video/mp4">
+                  Seu navegador não suporta vídeos.
+                </video>
+              </div>
+            </div>
+          </div>
+
+           
+
+          </section>
       </main>
       <footer>
          <!--Footer-->
