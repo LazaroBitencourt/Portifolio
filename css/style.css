@@ -59,7 +59,7 @@
 
 .card-hover {}
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
     .card-hover {
         transition: transform 0.3s ease;
     }
